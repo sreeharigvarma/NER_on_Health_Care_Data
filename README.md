@@ -21,10 +21,11 @@ BeHealthy has a web platform that allows doctors to list their services and mana
 ## Observation
 - Here, the idea is to extract the **useful information** from the text and in addition to that the **entity of the useful information** also needs to be identified.
 - Because the information we are planning to extract from the statement/interactions between doctors and patients is related to medical terms which are not regularly used day-to-day words.
+- The dataset available is in text format where each word forms a new line and each sentence is separated by an empty line. We will have to convert this into a more cleaner format.
+- ![sample image](https://github.com/sreeharigvarma/NER_on_Health_Care_Data/blob/main/sample_image_1.png)
 
 ## Approach
-- By observing the requirement, it is clearly visible that we have to process the textual sentence and identify the entities like **Disease and Treatment**. We can predict these all requirements using
-        -  CRF (Conditional Random Field) classifier
+- By observing the requirement, it is clearly visible that we have to process the textual sentence and identify the entities like **Disease and Treatment**. We can predict these all requirements using ** CRF (Conditional Random Field) classifier **
 - We will follow the below procedures:
 1. Data preprocessing
 2. Concept identification
